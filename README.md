@@ -296,3 +296,121 @@ https://app.klevere.ai:5000/api
   "data": "Hey there, students! Looking for top-notch medical services? Our medical product ensures you get the care you need quickly and conveniently. Say goodbye to long waits and hello to quality healthcare!"
 }
 ```
+
+## 11. Send Webpage Feedback
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_website_feedback
+```
+
+- body (Payload)
+
+```json
+{
+  "output_language": "English",
+  "website": "https://vjudge.net/",
+  "goal": "Competitve programming"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "### Summary of the Website and Services Offered:\n\nVirtual Judge provides a unique platform that aggregates competitive programming problems from various online judges into a single interface. It allows users to practice on problems sourced from over 40 online judges and submit solutions to be judged on those platforms indirectly. This mechanism facilitates holding contests without the need to access test data directly or rely on a single source for competitive programming challenges. The site aims to serve as a comprehensive tool for practicing and honing competitive programming skills by offering a wide variety of problems across different difficulty levels and topics.\n\n### Positive Feedback:\n\n1. **Aggregation of Problems:** Virtual Judge's strength lies in its aggregation of problems from a vast array of online judges, providing users with unparalleled access to a diversified pool of programming challenges. This variety helps programmers to practice and excel in a broad spectrum of topics.\n2. **Convenience:** The platform simplifies the process of finding and working on problems by centralizing access. This removes the need for users to have accounts on multiple platforms or to navigate through different interfaces and standards.\n3. **Contest Hosting Feature:** Allowing users to host their contests using problems from various sources without the need for original test data is a highly beneficial feature. It boosts competitive programming practices and community engagement by offering a seamless contest creation experience.\n\n### Negative Feedback:\n\n1. **User Experience (UX):** The website's UX might not be as polished or intuitive as some of the individual platforms it aggregates. This can deter new users or frustrate existing ones, particularly those not yet familiar with competitive programming norms.\n2. **Branding and Recognition:** While aggregating problems, Virtual Judge may miss out on establishing a strong brand identity. It runs the risk of being seen merely as a portal rather than a standalone authority in competitive programming.\n3. **Feedback and Learning Resources:** The platform might lack direct, interactive feedback mechanisms and learning resources that individual judges offer. This could limit learners' growth by not providing enough context or guidance on improving their skills.\n\n### Improvements:\n\n1. **Enhance UX and Interface:** Invest in design research to make the website more user-friendly. Implementing a modern, intuitive UI that guides users through problem selection, contest participation, and progress tracking can vastly improve user engagement.\n2. **Develop Unique Content:** Start creating unique educational content, like tutorials, tips for competitive programming, and problem-solving strategies. This not only aids in branding but also adds value for users, making Virtual Judge a go-to resource beyond just problem aggregation.\n3. **Interactive Feedback System:** Integrate an interactive feedback system where users can receive hints or explanations for challenging problems. Additionally, incorporating a community-driven forum for discussing problems and strategies could foster a more engaging learning environment.\n4. **SEO and Content Marketing:** To address visibility, Virtual Judge should optimize its content for search engines through strategic use of keywords related to competitive programming. Moreover, engaging in content marketing by publishing articles, problem-solving guides, and success stories can boost its online presence.\n5. **Partnerships and Collaborations:** Forge partnerships with educational institutions and competitive programming communities. These collaborations can aid in brand recognition and establish Virtual Judge as a pivotal component of the competitive programming ecosystem."
+}
+```
+
+## 12. Improve Email Subject Line
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_subject_lines
+```
+
+- body (Payload)
+
+```json
+{
+  "product": "Develop software",
+  "points": "Sofware",
+  "audience": "CSE student",
+  "tone": "conversational",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "1. \"Transform Your Coding Skills\"\n2. \"Upgrade Your Software Game\"\n3. \"Master Software Development\"\n4. \"Boost Your Coding Knowledge\"\n5. \"Elevate Your Programming Skills\"\n6. \"Unleash Your Coding Potential\"\n7. \"Enhance Your Software Abilities\"\n8. \"Revolutionize Your Coding Techniques\"\n9. \"Optimize Your Software Skills\"\n10. \"Empower Your Coding Journey\""
+}
+```
+
+## 13. Create Sales Proposal
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_sales_proposal
+```
+
+- body (Payload)
+
+```json
+{
+  "points": "longevity",
+  "goal": "Shoes",
+  "maker": "Parents",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Dear Parents,\n\nI understand that finding the perfect pair of shoes for your child can be a challenge. With so many options available, it can be overwhelming to know which one will provide the best fit, comfort, and durability.\n\nAt our store, we have been helping families like yours for many years. Our longevity in the industry has given us the expertise to understand the pain points that parents face when shopping for shoes for their children.\n\nWe know that you want to ensure that your child has a comfortable and supportive pair of shoes that will last through all their daily activities. That's why we offer a wide selection of high-quality footwear that is both stylish and durable.\n\nBy choosing our store, you can trust that you are making the best decision for your child's footwear needs. Our team of experienced professionals is here to help you find the perfect pair of shoes that will meet your child's needs and exceed your expectations.\n\nThank you for considering us for your child's shoe shopping needs. We look forward to helping you find the perfect pair of shoes for your little one.\n\nSincerely,\n[Your Name]"
+}
+```
+
+## 14. Generate Ice Breaker
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/ice_breaker
+```
+
+- body (Payload)
+
+```json
+{
+  "linkedin_url": "https://linkedin.com/in/sishufol",
+  "first_name": "Sohidul",
+  "undefined": "",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Hi Sohidul,\nI noticed on your LinkedIn profile that you recently started a new role as a Software Engineer at Mediusware Ltd. Congratulations on this exciting career move!"
+}
+```
