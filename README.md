@@ -35,7 +35,7 @@ https://app.klevere.ai:5000/api
 }
 ```
 
-## 2. HR Policy Design
+## 2. Generate HR Policy Report
 
 - API Endpoint:
 
@@ -47,9 +47,7 @@ https://app.klevere.ai:5000/api
 
 ```json
 {
-  "title": "Find out good employee performance",
-  "socialMedia": "",
-  "amountValue": 1,
+  "title": "Human Resource Policy Update",
   "outputLanguage": "English"
 }
 ```
@@ -59,6 +57,6 @@ https://app.klevere.ai:5000/api
 ```json
 {
   "success": true,
-  "data": "Title: Employee Performance Evaluation Policy\n\nPurpose:\nThe purpose of this policy is to ensure a fair and effective evaluation process for assessing employee performance within the organization.\n\nScope:\nThis policy applies to all employees of the company, regardless of position or tenure.\n\nPolicy:\n1. Regular Evaluation:\n- All employees will undergo regular performance evaluations at least once a year.\n- Managers will assess employee performance based on predetermined criteria and performance goals.\n\n2. Feedback:\n- Employees will receive constructive feedback on their performance and areas for improvement.\n- Managers will provide ongoing feedback to employees to help them reach their full potential.\n\n3. Recognition:\n- High-performing employees will be recognized and rewarded for their achievements.\n- Performance evaluations will be used to identify top performers for advancement opportunities within the organization.\n\n4. Development:\n- Employees will be provided with resources and support to help them improve their performance.\n- Training and development programs will be offered to help employees enhance their skills and knowledge.\n\n5. Documentation:\n- Performance evaluations and feedback will be documented in employee records for future reference.\n- Documentation will be used to track employee progress and determine promotions or disciplinary actions.\n\n6. Confidentiality:\n- Performance evaluations will be kept confidential between managers and employees.\n- Information about employee performance will only be shared on a need-to-know basis.\n\n7. Compliance:\n- All managers and employees are expected to comply with this policy and participate in the performance evaluation process.\n- Any concerns or disputes regarding performance evaluations should be addressed through the appropriate channels.\n\nImplementation:\nThis policy will be communicated to all employees and managers, and training will be provided on the evaluation process. The HR department will oversee the implementation and enforcement of this policy.\n\nReview:\nThis policy will be reviewed and updated periodically to ensure it remains relevant and effective in assessing employee performance.\n\nThis policy is designed to promote a culture of excellence and continuous improvement within the organization. By adhering to these guidelines, we can identify and support our top performers while providing opportunities for all employees to reach their full potential."
+  "data": "Title: HR Policy Design\n\nPurpose:\nThe purpose of this HR Policy Design is to provide guidelines and standards for creating effective and compliant human resource policies within the organization.\n\nPolicy Statement:\n1. All HR policies must be in line with federal, state, and local laws and regulations to ensure legal compliance.\n2. HR policies should be clearly communicated to all employees through an accessible and transparent platform.\n3. HR policies should be reviewed regularly to reflect changes in laws, regulations, and organizational needs.\n4. HR policies should be fair, consistent, and applied equally to all employees across the organization.\n5. HR policies should support the organization's values, goals, and mission while promoting a positive work culture.\n6. HR policies should be easy to understand and follow to ensure clarity and consistency in implementation.\n7. HR policies should promote diversity, inclusion, and a safe work environment for all employees.\n8. Any deviations from HR policies must be documented and approved by HR leadership to maintain accountability.\n\nImplementation:\n1. HR leadership will be responsible for overseeing the development, implementation, and monitoring of HR policies.\n2. HR managers will be responsible for communicating and enforcing HR policies within their respective departments.\n3. Employees are expected to familiarize themselves with and adhere to HR policies to maintain a productive and compliant work environment.\n\nEnforcement:\nViolation of HR policies may result in disciplinary action, up to and including termination of employment.\n\nThis HR Policy Design is effective immediately upon approval and will be reviewed annually for updates and improvements."
 }
 ```
