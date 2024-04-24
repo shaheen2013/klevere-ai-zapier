@@ -174,3 +174,34 @@ https://app.klevere.ai:5000/api
   "data": "Hey there, friend! What I've got for you today isn't just a letter, it's the start of something special. This isn't any old 'K'—it's a bold statement. Are you looking for a sleek, modern touch in your space? Something that grabs attention and says, \"I'm all about style\"? Well, you're looking right at it. \n\nThis 'K' is more than just a letter; it's a piece of art. Crafted with crisp lines and balanced design, it stands out with its minimalist yet striking presence. It's the perfect way to personalize your room, office, or even brand your creative space. Imagine this eye-catching monogram greeting guests as they enter—it's sure to spark conversations and ignite curiosity.\n\nThe black and white palette means it'll fit seamlessly no matter your decor, adding that touch of sophistication. And it's not just about looks—this 'K' speaks to those who value design, identity, and expression.\n\nSo, are you ready to make a statement that no one will forget? Add this stunning 'K' to your life and let it be the signature piece that represents the cool, chic, and creative you. Go on, you know you want to!"
 }
 ```
+
+## 7. Enhance Website Headline
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_web_headline
+```
+
+- body (Payload)
+
+```json
+{
+  "product": "Software",
+  "points": "Sotware",
+  "audience": "IT experts",
+  "tone": "conversational",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "1. Elevate Your IT Game: The Software That Speaks to Experts.\n2. Experts, Meet Your New Secret Weapon in Tech!\n3. IT Gurus: Discover Software That Gets You.\n4. The Conversational Solution to Your Tech Challenges!\n5. Tech Experts: Simplify Your Work with Smart Software.\n6. Crack the Code to IT Success: Expert-Approved Software Awaits!\n7. Navigate Your IT World with Precision: Expert Software Inside.\n8. Converse with Code: Where Software Meets Mastery.\n9. IT Mastery is Just a Click Away - See How!\n10. Join the IT Elite: Experience the Software Evolution!"
+}
+```
