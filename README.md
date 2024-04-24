@@ -117,3 +117,33 @@ https://app.klevere.ai:5000/api
   "data": "**Candidate's Resume Summary:** \nSalma Khan is a junior software developer with a BA (Hons) in Computer Science and experience as an Accounts Assistant at a firm where she worked on system maintenance, testing, support, and development. She has skills in SQL, C++, and .NET among others, and is seeking a software developer role to further her career.\n\n**Detailed Comparison:**\n- **Skills:** Salma has experience in SQL which is a crucial skill for a software developer. She also has exposure to C++ and .NET, aligning with the job requirements.\n- **Experiences:** While her role as an Accounts Assistant involved software support and testing, it lacks direct experience in coding applications and mobile applications development.\n- **Qualifications:** Salma holds a BA in Computer Science, which is relevant to the software developer position.\n- **Unique Aspects:** Salma's ability to communicate complex issues and manage projects independently could be valuable contributions to the team.\n\n**Compatibility Rating:** 7/10\nSalma's strong skills in SQL, C++, and .NET, coupled with her academic background in Computer Science, make her a good fit for the software developer role. However, her lack of direct experience in coding applications and mobile development slightly lowers her compatibility rating.\n\n**Recommendation:**\nConsidering Salma's technical skills, academic qualifications, and the potential she brings in terms of communication and project management, I recommend that the employer consider her for an interview. With the right training and support, Salma has the potential to excel in the software developer role and contribute positively to the team."
 }
 ```
+
+## 5. Create LinkedIn Candidate
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_linkedin_screening
+```
+
+- body (Payload)
+
+```json
+{
+  "linkedin_url": "https://linkedin.com/in/sishufol",
+  "job_description": "Software engineering",
+  "undefined": "",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "Hindi"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "**Candidate's Resume Summary**:\nSohidul Islam is a Full Stack Developer with expertise in MERN stack development. He has experience working at Mediusware Ltd. as a Software Engineer and has also been a Full Stack Developer at Self Employed. Sohidul holds a Bachelor of Science degree in Computer Science from Port City International University Bangladesh.\n\n**Detailed Comparison**:\n- **Skills**: The candidate's resume mentions proficiency in MongoDB, ExpressJS, ReactJS, and NodeJS, which are relevant skills for a Software Engineering role.\n- **Experiences**: Sohidul has experience working as a Software Engineer and a Full Stack Developer, which align well with the Software Engineering job description.\n- **Qualifications**: The candidate holds a Bachelor of Science degree in Computer Science, which meets the educational requirement for a Software Engineering position.\n- **Unique Aspects**: Sohidul's experience in UI/UX design, problem-solving skills, and emphasis on collaboration and teamwork are additional strengths he brings to the role.\n\n**Compatibility Rating**: 9/10\nThe candidate demonstrates a strong alignment with the job description in terms of skills, experiences, and qualifications. Sohidul's background in MERN stack development, experience in software engineering roles, and focus on teamwork make him a highly compatible candidate for the position.\n\n**Recommendation**:\nI highly recommend considering Sohidul Islam for an interview for the Software Engineering position. His solid technical skills, relevant experiences, and positive attitude towards collaboration make him a strong contender for the role. Furthermore, his background in UI/UX design and problem-solving abilities could bring additional value to the development team."
+}
+```
