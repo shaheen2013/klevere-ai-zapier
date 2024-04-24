@@ -6,6 +6,21 @@
 https://app.klevere.ai:5000/api
 ```
 
+## Dashboard URL
+
+```
+https://app.klevere.ai/
+```
+## Tutorials for Obtaining Your API Key.
+1. Log in with valid credentials or sign up for an account.
+2. Purchase a plan if you don't have a premium account.
+3. In the bottom of the dashboard sidebar, find the profile section displaying your name and email.
+4. Hover or click on this section to reveal a dropdown menu.
+5. Click on "Profile Settings" to be redirected to the profile page.
+6. On the profile page, locate the "API" tab and click on it.
+7. Here, you will find your API key. If you don't have one, click on the rightmost button with the refresh icon to generate a new API key.
+8. You can then use this API key to access our services.
+
 ## 1. Completed Performance Evaluation/Generate Performance Evaluation Report
 
 - API Endpoint:
