@@ -1,7 +1,8 @@
 # API Documentation of Klevere Ai
 
+## {{baseUrl}}
 ```
-{{baseUrl}} = https://app.klevere.ai:5000/api
+https://app.klevere.ai:5000/api
 ```
 
 ## 1. Completed Performance Evaluation/Generate Performance Evaluation Report
