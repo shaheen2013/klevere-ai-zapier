@@ -205,3 +205,63 @@ https://app.klevere.ai:5000/api
   "data": "1. Elevate Your IT Game: The Software That Speaks to Experts.\n2. Experts, Meet Your New Secret Weapon in Tech!\n3. IT Gurus: Discover Software That Gets You.\n4. The Conversational Solution to Your Tech Challenges!\n5. Tech Experts: Simplify Your Work with Smart Software.\n6. Crack the Code to IT Success: Expert-Approved Software Awaits!\n7. Navigate Your IT World with Precision: Expert Software Inside.\n8. Converse with Code: Where Software Meets Mastery.\n9. IT Mastery is Just a Click Away - See How!\n10. Join the IT Elite: Experience the Software Evolution!"
 }
 ```
+
+## 8. Create Social Media Caption
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_visual_social_media_caption
+```
+
+- body (Payload)
+
+```json
+{
+  "url": "https://klevere-pdf-storage.s3.eu-central-1.amazonaws.com/coping-with-pressure-of-job-hunting.jpg",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "Hindi"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "\"Ever had one of those days where you feel like you've boxed up your motivation with last year's winter clothes? 😅 Hang in there, friends, we all get a little 'wrapped up' sometimes. #JustOneOfThoseDays #UnboxingMotivation\""
+}
+```
+
+## 9. Create Ad Content
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_digital_advertising
+```
+
+- body (Payload)
+
+```json
+{
+  "product": "Software development",
+  "points": "Software",
+  "audience": "Student",
+  "action": "Learn Programming",
+  "tone": "conversational",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Hey there, student! Ready to dive into the world of software development? Start coding with our intuitive software and unleash your potential. Let's learn programming together!"
+}
+```
