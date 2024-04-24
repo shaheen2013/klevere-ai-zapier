@@ -414,3 +414,144 @@ https://app.klevere.ai:5000/api
   "data": "Hi Sohidul,\nI noticed on your LinkedIn profile that you recently started a new role as a Software Engineer at Mediusware Ltd. Congratulations on this exciting career move!"
 }
 ```
+
+## 15. Create Job Description
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_job_description
+```
+
+- body (Payload)
+
+```json
+{
+  "title": "Software engieneer",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Job Title: Software Engineer\n\nCompany Overview:\nWe are a cutting-edge technology company dedicated to creating innovative solutions for the digital age. Our team of passionate individuals is driven to push the boundaries of what is possible in the world of software development. As a Software Engineer at our company, you will have the opportunity to work on exciting projects that will shape the future of our industry.\n\nPosition Overview:\nWe are seeking a talented and experienced Software Engineer to join our dynamic team. The ideal candidate will have a strong passion for technology and a knack for problem-solving. You will be responsible for designing, developing, and implementing software solutions that meet the needs of our clients and customers. This is a great opportunity for individuals who thrive in a fast-paced, collaborative environment and are eager to make a positive impact on the world through technology.\n\nKey Responsibilities:\n- Collaborate with cross-functional teams to design and develop software solutions\n- Write clean, efficient, and maintainable code using best practices and modern technologies\n- Conduct thorough testing and debugging to ensure the quality of the software\n- Update and maintain existing software applications to meet changing business needs\n- Provide technical support and guidance to team members as needed\n- Stay current on emerging technologies and trends in software development\n\nQualifications:\n- Bachelor's degree in Computer Science, Engineering, or related field\n- Proven experience as a Software Engineer or similar role\n- Strong proficiency in programming languages such as Java, C++, or Python\n- Experience with software development tools and frameworks\n- Solid understanding of software development lifecycle and methodologies\n- Ability to work independently and collaboratively in a team environment\n- Excellent problem-solving and communication skills\n\nBenefits:\n- Competitive salary and benefits package\n- Opportunities for professional growth and advancement\n- Vibrant and inclusive work culture that promotes collaboration and creativity\n- Flexible work schedule and remote work options\n- Access to cutting-edge technologies and resources to support your development\n\nJoin our team and be a part of something truly extraordinary. Apply now to become a Software Engineer and help us shape the future of technology. We look forward to welcoming you to our team!"
+}
+```
+
+## 16. Create Job Description
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_job_description
+```
+
+- body (Payload)
+
+```json
+{
+  "title": "Software engieneer",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Job Title: Software Engineer\n\nCompany Overview:\nWe are a cutting-edge technology company dedicated to creating innovative solutions for the digital age. Our team of passionate individuals is driven to push the boundaries of what is possible in the world of software development. As a Software Engineer at our company, you will have the opportunity to work on exciting projects that will shape the future of our industry.\n\nPosition Overview:\nWe are seeking a talented and experienced Software Engineer to join our dynamic team. The ideal candidate will have a strong passion for technology and a knack for problem-solving. You will be responsible for designing, developing, and implementing software solutions that meet the needs of our clients and customers. This is a great opportunity for individuals who thrive in a fast-paced, collaborative environment and are eager to make a positive impact on the world through technology.\n\nKey Responsibilities:\n- Collaborate with cross-functional teams to design and develop software solutions\n- Write clean, efficient, and maintainable code using best practices and modern technologies\n- Conduct thorough testing and debugging to ensure the quality of the software\n- Update and maintain existing software applications to meet changing business needs\n- Provide technical support and guidance to team members as needed\n- Stay current on emerging technologies and trends in software development\n\nQualifications:\n- Bachelor's degree in Computer Science, Engineering, or related field\n- Proven experience as a Software Engineer or similar role\n- Strong proficiency in programming languages such as Java, C++, or Python\n- Experience with software development tools and frameworks\n- Solid understanding of software development lifecycle and methodologies\n- Ability to work independently and collaboratively in a team environment\n- Excellent problem-solving and communication skills\n\nBenefits:\n- Competitive salary and benefits package\n- Opportunities for professional growth and advancement\n- Vibrant and inclusive work culture that promotes collaboration and creativity\n- Flexible work schedule and remote work options\n- Access to cutting-edge technologies and resources to support your development\n\nJoin our team and be a part of something truly extraordinary. Apply now to become a Software Engineer and help us shape the future of technology. We look forward to welcoming you to our team!"
+}
+```
+
+## 17. Conduct Hiring Research
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_hiring_research
+```
+
+- body (Payload)
+
+```json
+{
+  "mainPoint": "Software developement",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Sure, I am interested in joining your company for software development. I have experience in languages such as Java, Python, and JavaScript, as well as familiarity with various frameworks and tools. I am confident in my ability to contribute effectively to your team and help drive successful software projects."
+}
+```
+
+## 18. Create Personalized Hire Letter
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_hire_letter
+```
+
+- body (Payload)
+
+```json
+{
+  "title": "software engineer",
+  "undefined": "",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Dear [Candidate],\n\nI am thrilled to extend an offer to you for the position of Software Engineer at our company. Your exceptional skills and experience make you a perfect fit for our team, and we are excited about the possibility of you joining us.\n\nAs a Software Engineer, you will have the opportunity to work on cutting-edge projects and contribute to the development of innovative solutions that will make a real impact on our business. Your expertise in [specific programming languages or technologies] will be a valuable asset to our team, and we are confident that you will thrive in our fast-paced and dynamic work environment.\n\nIn addition to the challenging and rewarding work you will be doing, you will have access to a competitive salary and benefits package, as well as opportunities for professional development and growth within the company. We value our employees and foster a supportive and inclusive work culture that promotes collaboration, creativity, and excellence.\n\nWe are excited about the prospect of you joining our team and are looking forward to the positive impact you will make on our organization. Please let us know if you have any questions or concerns, and we will be happy to address them.\n\nSincerely,\n\n[Your Name]  \nHuman Resources Manager  \n[Company Name]"
+}
+```
+
+## 19. Notify Employees Termination
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_termination_letter
+```
+
+- body (Payload)
+
+```json
+{
+  "title": "Software engineer",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Dear [Employee's Name],\n\nAfter careful consideration and evaluation of your performance, it is with great regret that we must inform you of our decision to terminate your employment as a Software Engineer at [Company Name], effective immediately.\n\nYour work on various projects and tasks has not consistently met the expectations and requirements of the role, despite efforts to provide additional training and support. We have closely monitored your progress and have determined that your performance does not align with the standards set by our organization.\n\nThe decision to terminate your employment was not made lightly, but rather after thorough review and consideration of all relevant factors. We believe this is the best course of action for both the company and yourself.\n\nPlease be aware that this decision is final and there will be no opportunity for reinstatement. We will provide you with all necessary information regarding your final paycheck, benefits, and any other relevant matters in a separate communication.\n\nWe appreciate the contributions you have made during your time with us and wish you the best in your future endeavors.\n\nSincerely,\n\n[Your Name]\n[Title]\n[Company Name]"
+}
+```
