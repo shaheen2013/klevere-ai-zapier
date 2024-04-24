@@ -265,3 +265,34 @@ https://app.klevere.ai:5000/api
   "data": "Hey there, student! Ready to dive into the world of software development? Start coding with our intuitive software and unleash your potential. Let's learn programming together!"
 }
 ```
+
+## 10. Write Product Description
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_product_description
+```
+
+- body (Payload)
+
+```json
+{
+  "product": "Provide Medical Service",
+  "points": "Medical Product",
+  "audience": "Student",
+  "tone": "conversational",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Hey there, students! Looking for top-notch medical services? Our medical product ensures you get the care you need quickly and conveniently. Say goodbye to long waits and hello to quality healthcare!"
+}
+```
