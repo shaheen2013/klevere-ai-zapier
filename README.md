@@ -147,3 +147,30 @@ https://app.klevere.ai:5000/api
   "data": "**Candidate's Resume Summary**:\nSohidul Islam is a Full Stack Developer with expertise in MERN stack development. He has experience working at Mediusware Ltd. as a Software Engineer and has also been a Full Stack Developer at Self Employed. Sohidul holds a Bachelor of Science degree in Computer Science from Port City International University Bangladesh.\n\n**Detailed Comparison**:\n- **Skills**: The candidate's resume mentions proficiency in MongoDB, ExpressJS, ReactJS, and NodeJS, which are relevant skills for a Software Engineering role.\n- **Experiences**: Sohidul has experience working as a Software Engineer and a Full Stack Developer, which align well with the Software Engineering job description.\n- **Qualifications**: The candidate holds a Bachelor of Science degree in Computer Science, which meets the educational requirement for a Software Engineering position.\n- **Unique Aspects**: Sohidul's experience in UI/UX design, problem-solving skills, and emphasis on collaboration and teamwork are additional strengths he brings to the role.\n\n**Compatibility Rating**: 9/10\nThe candidate demonstrates a strong alignment with the job description in terms of skills, experiences, and qualifications. Sohidul's background in MERN stack development, experience in software engineering roles, and focus on teamwork make him a highly compatible candidate for the position.\n\n**Recommendation**:\nI highly recommend considering Sohidul Islam for an interview for the Software Engineering position. His solid technical skills, relevant experiences, and positive attitude towards collaboration make him a strong contender for the role. Furthermore, his background in UI/UX design and problem-solving abilities could bring additional value to the development team."
 }
 ```
+
+## 6. Generate Product Description.
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_visual_product_description
+```
+
+- body (Payload)
+
+```json
+{
+  "url": "https://klevere-pdf-storage.s3.eu-central-1.amazonaws.com/chat-logo.png",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "Hey there, friend! What I've got for you today isn't just a letter, it's the start of something special. This isn't any old 'K'—it's a bold statement. Are you looking for a sleek, modern touch in your space? Something that grabs attention and says, \"I'm all about style\"? Well, you're looking right at it. \n\nThis 'K' is more than just a letter; it's a piece of art. Crafted with crisp lines and balanced design, it stands out with its minimalist yet striking presence. It's the perfect way to personalize your room, office, or even brand your creative space. Imagine this eye-catching monogram greeting guests as they enter—it's sure to spark conversations and ignite curiosity.\n\nThe black and white palette means it'll fit seamlessly no matter your decor, adding that touch of sophistication. And it's not just about looks—this 'K' speaks to those who value design, identity, and expression.\n\nSo, are you ready to make a statement that no one will forget? Add this stunning 'K' to your life and let it be the signature piece that represents the cool, chic, and creative you. Go on, you know you want to!"
+}
+```
