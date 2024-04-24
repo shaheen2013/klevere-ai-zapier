@@ -6,7 +6,7 @@
 https://app.klevere.ai:5000/api
 ```
 
-## 1. Generate Performance Evaluation Report
+## 1. Completed Performance Evaluation/Generate Performance Evaluation Report
 
 - API Endpoint:
 
@@ -58,5 +58,33 @@ https://app.klevere.ai:5000/api
 {
   "success": true,
   "data": "Title: HR Policy Design\n\nPurpose:\nThe purpose of this HR Policy Design is to provide guidelines and standards for creating effective and compliant human resource policies within the organization.\n\nPolicy Statement:\n1. All HR policies must be in line with federal, state, and local laws and regulations to ensure legal compliance.\n2. HR policies should be clearly communicated to all employees through an accessible and transparent platform.\n3. HR policies should be reviewed regularly to reflect changes in laws, regulations, and organizational needs.\n4. HR policies should be fair, consistent, and applied equally to all employees across the organization.\n5. HR policies should support the organization's values, goals, and mission while promoting a positive work culture.\n6. HR policies should be easy to understand and follow to ensure clarity and consistency in implementation.\n7. HR policies should promote diversity, inclusion, and a safe work environment for all employees.\n8. Any deviations from HR policies must be documented and approved by HR leadership to maintain accountability.\n\nImplementation:\n1. HR leadership will be responsible for overseeing the development, implementation, and monitoring of HR policies.\n2. HR managers will be responsible for communicating and enforcing HR policies within their respective departments.\n3. Employees are expected to familiarize themselves with and adhere to HR policies to maintain a productive and compliant work environment.\n\nEnforcement:\nViolation of HR policies may result in disciplinary action, up to and including termination of employment.\n\nThis HR Policy Design is effective immediately upon approval and will be reviewed annually for updates and improvements."
+}
+```
+
+## 3. Recruitment Strategy
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_recruitment_strategy
+```
+
+- body (Payload)
+
+```json
+{
+  "talent": "Software engineer",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "To attract top software engineering talent, we will need to implement a multifaceted recruitment strategy that will set us apart from our competitors. This strategy will focus on building a strong employer brand, leveraging various recruitment channels, and creating an engaging candidate experience.\n\nFirst, we will need to showcase our company culture and values through our employer branding efforts. This can include highlighting employee testimonials, showcasing our work environment, and emphasizing our commitment to innovation and professional development.\n\nNext, we will leverage multiple recruitment channels to reach potential candidates. This can include online job boards, social media platforms, tech-specific forums, and industry networking events. By casting a wide net, we can increase our chances of attracting the best talent in the software engineering field.\n\nLastly, we will ensure that our recruitment process is streamlined and engaging for candidates. This can include providing prompt feedback, offering a transparent view of our company culture and growth opportunities, and providing a positive candidate experience from initial application to final offer.\n\nBy implementing these strategies, we can position ourselves as a top employer for software engineers and attract the best talent in the industry to join our team."
 }
 ```
