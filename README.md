@@ -61,7 +61,7 @@ https://app.klevere.ai:5000/api
 }
 ```
 
-## 3. Recruitment Strategy
+## 3. Draw Up Recruitment Strategy
 
 - API Endpoint:
 
