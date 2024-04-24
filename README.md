@@ -6,7 +6,7 @@
 https://app.klevere.ai:5000/api
 ```
 
-## 1. Completed Performance Evaluation/Generate Performance Evaluation Report
+## 1. Generate Performance Evaluation Report
 
 - API Endpoint:
 
