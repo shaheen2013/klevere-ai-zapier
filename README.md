@@ -88,3 +88,32 @@ https://app.klevere.ai:5000/api
   "data": "To attract top software engineering talent, we will need to implement a multifaceted recruitment strategy that will set us apart from our competitors. This strategy will focus on building a strong employer brand, leveraging various recruitment channels, and creating an engaging candidate experience.\n\nFirst, we will need to showcase our company culture and values through our employer branding efforts. This can include highlighting employee testimonials, showcasing our work environment, and emphasizing our commitment to innovation and professional development.\n\nNext, we will leverage multiple recruitment channels to reach potential candidates. This can include online job boards, social media platforms, tech-specific forums, and industry networking events. By casting a wide net, we can increase our chances of attracting the best talent in the software engineering field.\n\nLastly, we will ensure that our recruitment process is streamlined and engaging for candidates. This can include providing prompt feedback, offering a transparent view of our company culture and growth opportunities, and providing a positive candidate experience from initial application to final offer.\n\nBy implementing these strategies, we can position ourselves as a top employer for software engineers and attract the best talent in the industry to join our team."
 }
 ```
+
+## 4. Screen CV
+
+- API Endpoint:
+
+```
+{{base_url}}/v1/workflow/generate_cv_screening
+```
+
+- body (Payload)
+
+```json
+{
+  "pdf_resume": "https://klevere-pdf-storage.s3.eu-central-1.amazonaws.com/Junior_software_developer.pdf",
+  "job_description": "Software developer",
+  "socialMedia": "",
+  "amountValue": 1,
+  "outputLanguage": "English"
+}
+```
+
+- Response
+
+```json
+{
+  "success": true,
+  "data": "**Candidate's Resume Summary:** \nSalma Khan is a junior software developer with a BA (Hons) in Computer Science and experience as an Accounts Assistant at a firm where she worked on system maintenance, testing, support, and development. She has skills in SQL, C++, and .NET among others, and is seeking a software developer role to further her career.\n\n**Detailed Comparison:**\n- **Skills:** Salma has experience in SQL which is a crucial skill for a software developer. She also has exposure to C++ and .NET, aligning with the job requirements.\n- **Experiences:** While her role as an Accounts Assistant involved software support and testing, it lacks direct experience in coding applications and mobile applications development.\n- **Qualifications:** Salma holds a BA in Computer Science, which is relevant to the software developer position.\n- **Unique Aspects:** Salma's ability to communicate complex issues and manage projects independently could be valuable contributions to the team.\n\n**Compatibility Rating:** 7/10\nSalma's strong skills in SQL, C++, and .NET, coupled with her academic background in Computer Science, make her a good fit for the software developer role. However, her lack of direct experience in coding applications and mobile development slightly lowers her compatibility rating.\n\n**Recommendation:**\nConsidering Salma's technical skills, academic qualifications, and the potential she brings in terms of communication and project management, I recommend that the employer consider her for an interview. With the right training and support, Salma has the potential to excel in the software developer role and contribute positively to the team."
+}
+```
