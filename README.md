@@ -1,4 +1,4 @@
-# API Documentation of Klevere Ai
+# API Documentation of Klevere
 
 ## {{baseUrl}}
 
